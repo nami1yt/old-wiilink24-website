@@ -1,7 +1,9 @@
 Things that must be fixed
 
-- Vercel Deployment
+- Vercel Deployment (Completed)
 
-- Updates for the Guides
+- Update the Guides
 
 - Update the Front Page Currently Supported Services
+
+- Make some Fancy edits
