@@ -52,8 +52,6 @@ changeLanguage("ru");
             <a href="/guide/1welcome"><h3 class="readdocs">{t("home.docs")}</h3></a>
         </div>
     </div>
-    
-    <div class="rate">{t("home.beta")}</div>
 
     <a href="#start"><div class="first"><img src=" ./Images/downarrow.png" width="40px"></div></a>
 
@@ -97,8 +95,10 @@ changeLanguage("ru");
                     <div class="content">
                         <p>{t("home.faqres4")}</p>
                     </div>
-                </div>
-                    <h3 style="text-align: center; top:20px; position: relative; left:50%; width:80%; transform:translate(-50%, 0);">{t("home.morefaq")}</h3>
+                </div> 
+                <a href="/guide/4faq">
+                    <h3 style="text-align: center; top:20px; position: relative; color:#36AC36; left:100%; width:80%; transform:translate(-50%, 0);">{t("home.morefaq")}</h3>
+                </a>
             </div>
         </div>
 
@@ -107,7 +107,7 @@ changeLanguage("ru");
         <Members />
 
             <!-- News section -->
-        <h2 class="fa-solid fa-newspaper contentslogan" style="top:50px; position: relative;"> <d style="font-family: Gilroy;">{t("home.news")}</d></h2>  <h4 class="slogandef">{t("home.newsdef")}</h4>
+        <h2 class="fa-solid fa-newspaper contentslogan" style=" top:50px; position: relative;"> <d style="font-family: Gilroy;">{t("home.news")}</d></h2>  <h4 class="slogandef" style=" top:0px; left: 70%; position: relative;">{t("home.newsdef")}</h4>
         <News />
 
             <!-- Donators and Discord section -->
@@ -162,6 +162,7 @@ changeLanguage("ru");
     font-family: Gilroy;
     transition: 0.2s;
     text-decoration: none;
+    animation: fadeIn 5s;
   }
 
   .collapsibles{
@@ -555,9 +556,6 @@ Trans{
     animation: rotate 240s linear infinite;
     position: absolute;
     z-index: 0;
-  }
-  a:hover{
-    text-decoration: underline;
   }
 
   @keyframes rotate{
