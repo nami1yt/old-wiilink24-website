@@ -1,0 +1,153 @@
+---
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('guide')).sort(
+	(b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+---
+
+<sidebar>
+	<div class="sidebarholder">
+        <div class="sidebarcontent">
+            <div style="font-family: Gilroy; color:white; font-size:20px; margin-bottom:20px;">Let's get you started</div>
+            {
+                posts.map((post) => (
+                    <div class="post">
+                        <a href={`/guide/${post.slug}/`}>
+                        <div class="title">{post.data.title}</div>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+
+        <div class="sidebarcontent">
+            <div style="font-family: Gilroy; color:white; font-size:20px; margin-bottom:20px;">Our services</div>
+            {
+                posts.map((post) => (
+                    <div class="post2">
+                        <a href={`/guide/${post.slug}/`}>
+                        <div class="title">{post.data.title}</div>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+
+        <a href="https://wii.guide"><div class="wiiguide">Go to wii.guide</div></a>
+    </div>
+</sidebar>
+<style>
+a{
+    color:rgba(205, 205, 205, 0.646);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+ .sidebarholder{
+    width:17%;
+    height:87%;
+    bottom:0;
+    left:8%;
+    border-radius: 8px;
+    position: absolute;
+    overflow-x: hidden;
+
+ }
+
+ .sidebarcontent{
+    font-family: Cafe;
+    font-size: 15px;
+    margin-bottom: 60px;
+ }
+
+ .post{
+    margin-bottom: 30px;
+ }
+
+ .post2{
+    margin-bottom: 30px;
+ }
+
+ .post:nth-child(1){
+    display:block;
+ }
+
+ .post:nth-child(2){
+    display:block;
+ }
+
+ .post:nth-child(3){
+    display:block;
+ }
+
+ .post:nth-child(4){
+    display:block;
+ }
+
+ .post:nth-child(5){
+    display:block;
+ }
+
+ .post{
+    display: none;
+ }
+
+
+ .post2:nth-child(1){
+    display:none;
+ }
+
+ .post2:nth-child(2){
+    display:none;
+ }
+
+ .post2:nth-child(3){
+    display:none;
+ }
+
+ .post2:nth-child(4){
+    display:none;
+ }
+
+ .post2:nth-child(5){
+    display:none;
+ }
+
+ .post2{
+    display: block;
+ }
+ .wiiguide{
+    bottom:20px;
+    width:90%;
+    background-color:rgb(79, 79, 211);
+    border-radius: 8px;
+    font-family: Gilroy;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    position: relative;
+    transition: 0.2s;
+ }
+
+ .wiiguide:hover{
+    background-color: rgb(58, 58, 197);
+    text-decoration: underline;
+    transition: 0.4s;
+ }
+
+.sidebarholder::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebarholder {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+</style>
