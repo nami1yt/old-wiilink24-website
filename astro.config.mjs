@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.wiilink24.com',
+	site: 'https://old.wiilink24.com',
 	integrations: [mdx(), sitemap()],
 	integrations: [astroI18next()],
 });
