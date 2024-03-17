@@ -1,12 +1,17 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import astroI18next from "astro-i18next";
+import vercel from '@astrojs/vercel/serverless';
 
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://old.wiilink24.com',
+	site: 'https://www.wiilink24.com',
 	integrations: [mdx(), sitemap()],
 	integrations: [astroI18next()],
-});
+	output: 'server',
+	adapter: vercel({
+	  webAnalytics: { enabled: true }
+	}),
+  });
