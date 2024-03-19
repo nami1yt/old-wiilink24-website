@@ -67,8 +67,17 @@ import HeaderMain from './HeaderMain.astro';
 
     <a href="/guide/news">
         <div class="itn">
-            <div class="itnbg itn8"></div>
+            <div class="itnbg itn7"></div>
             <img class="itnimg" src=" ./Images/newsicon.svg">
+            <h2 class="itnhead">{t("services.itn7name")}</h2>
+            <h3 class="itndesc">{t("services.itn7desc")}</h3>
+        </div>
+    </a>
+
+    <a href="/guide/evc">
+        <div class="itn">
+            <div class="itnbg itn8"></div>
+            <img class="itnimg" src="./Images/evclogo.png">
             <h2 class="itnhead">{t("services.itn8name")}</h2>
             <h3 class="itndesc">{t("services.itn8desc")}</h3>
         </div>
@@ -184,8 +193,13 @@ import HeaderMain from './HeaderMain.astro';
         filter: brightness(0.7);
     }
 
-    .itn8{
+    .itn7{
         background: linear-gradient(40deg, rgba(53, 230, 37, 0.774) 0%, rgb(147, 255, 97) 100%);
+        filter: brightness(0.7);
+    }
+
+    .itn8{
+        background: linear-gradient(40deg, rgba(0, 228, 245, 0.774)0%, rgba(0, 215, 243, 0.801) 100%);
         filter: brightness(0.7);
     }
     

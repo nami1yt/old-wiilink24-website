@@ -4,7 +4,7 @@
       "install": "Install it now",
       "docs": "Check out the guide",
       "beta": "This site is in BETA, rate it!",
-      "info": "<0><1>Wii</1><2>Link</2> resurrects many international channels. <br/> Including channels only released in curtain countries!</0>",
+      "info": "<0><1>Wii</1><2>Link</2> resurrects many international channels. <br/> Including channels that were only released in curtain countries!</0>",
       "faq": " Quick FAQ",
       "faq1": "Why WiiLink?",
       "faqres1": "WiiLink is the only service to bring back Japanese exclusive Wii channels after they were officially shut down. We've made Wii no Ma, the Demae Channel, and Digicam Print Channel functional once more. With our service, you can experience all of these once more on your Nintendo Wii - possibly for the first time.",
@@ -41,7 +41,7 @@
         "guide": "Guide",
         "status": "Status",
         "faq": "FAQ",
-        "install": "Install now"
+        "install": "Install"
     },
     "services": {
         "itn1name": "Wii Room",
@@ -62,12 +62,9 @@
         "itn6name": "Nintendo Channel",
         "itn6jpn": "",
         "itn6desc": "Watch all sorts of trailers, promos, and shows all from one interface.",
-        "itn7name": "TV Guide Channel",
-        "itn7jpn": "テレビガイドチャンネル",
-        "itn7desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!",
-        "itn8name": "News Channel",
-        "itn8jpn": "",
-        "itn8desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!"
+        "itn7name": "News Channel",
+        "itn7jpn": "",
+        "itn7desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!"
     },
     "status": {
         "statuspage": "Check the server's status.",

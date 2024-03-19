@@ -245,13 +245,6 @@ declare module 'astro:content' {
   collection: "guide",
   data: any
 } & { render(): Render[".md"] },
-"3demae_install.md": {
-  id: "3demae_install.md",
-  slug: "3demae_install",
-  body: string,
-  collection: "guide",
-  data: any
-} & { render(): Render[".md"] },
 "4FAQ.md": {
   id: "4FAQ.md",
   slug: "4faq",
@@ -290,6 +283,13 @@ declare module 'astro:content' {
 "dokodemo.md": {
   id: "dokodemo.md",
   slug: "dokodemo",
+  body: string,
+  collection: "guide",
+  data: any
+} & { render(): Render[".md"] },
+"evc.md": {
+  id: "evc.md",
+  slug: "evc",
   body: string,
   collection: "guide",
   data: any

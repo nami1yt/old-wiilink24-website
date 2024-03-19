@@ -1,4 +1,4 @@
-# (This Respositary is NOT affiliated/associated with WiiLink whatsoever)!
+# (This Respositary is NOT affiliated/associated with WiiLink whatsoever!)
 
 ### Things that must be fixed
 

@@ -64,10 +64,7 @@
         "itn6desc": "Watch all sorts of trailers, promos, and shows all from one interface.",
         "itn7name": "テレビガイドチャンネル",
         "itn7jpn": "",
-        "itn7desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!",
-        "itn8name": "News Channel",
-        "itn8jpn": "",
-        "itn8desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!"
+        "itn7desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!"
     },
     "status": {
         "statuspage": "Check the server's status.",
