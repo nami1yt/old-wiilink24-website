@@ -4,7 +4,7 @@
       "install": "Install it now",
       "docs": "Check out the guide",
       "beta": "This site is in BETA, rate it!",
-      "info": "<0><1>Wii</1><2>Link</2> resurrects many international channels. <br/> Including channels that were only released in curtain countries!</0>",
+      "info": "<0><1>Wii</1><2>Link</2> resurrects many international channels. <br/> Including channels that were only released in curtain countries! <br> Here's what we've currently support:</0>",
       "faq": " Quick FAQ",
       "faq1": "Why WiiLink?",
       "faqres1": "WiiLink is the only service to bring back Japanese exclusive Wii channels after they were officially shut down. We've made Wii no Ma, the Demae Channel, and Digicam Print Channel functional once more. With our service, you can experience all of these once more on your Nintendo Wii - possibly for the first time.",
@@ -32,7 +32,7 @@
         "desc": "Keep up to date on all things WiiLink in our Discord server!"
     },
     "footer": {
-        "desc": "WiiLink is a revival service for the now-defunct Japanese exclusive Wii channels and media channels. This service allows you to use Wii Room, Digicam Print Channel, Kirby TV Channel, and the Food Channel!",
+        "desc": "WiiLink is an unofficial, non-profit homebrew project. It is not affiliated with Nintendo and all trademarks are the property of their respective owners. No copyright infringement intended.",
         "team": ""
     },
     "header": {
@@ -64,7 +64,10 @@
         "itn6desc": "Watch all sorts of trailers, promos, and shows all from one interface.",
         "itn7name": "News Channel",
         "itn7jpn": "",
-        "itn7desc": "Want to know what's playin' on TV? Wonder no more with the TV Guide Channel!"
+        "itn7desc": "Access news headlines and current news events obtained from the Internet.",
+        "itn8name": "Everybody Votes Channel",
+        "itn8jpn": "",
+        "itn8desc": "You can vote in simple opinion polls and compare and contrast opinions with those of friends, family and people across the globe."
     },
     "status": {
         "statuspage": "Check the server's status.",
@@ -75,11 +78,17 @@
         "video": "Video Streaming Services",
         "videodesc": "A myriad of services for you to best enjoy video within."
     },
+    "gudie": {
+        "title": "WiiLink - Guide"
+    },
     "download": {
         "welcome": "Welcome!",
         "oschoose": "Choose your OS to get started!",
         "winreq": "10 or higher",
         "linreq": "Requires Brew",
         "checkdocs": "Check out the installation tutorial on our <0>brand new guide!</0>" 
+    },
+    "404": {
+        "return": "Go Back to Homepage."
     }
   }

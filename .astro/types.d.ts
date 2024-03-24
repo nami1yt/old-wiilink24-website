@@ -245,9 +245,9 @@ declare module 'astro:content' {
   collection: "guide",
   data: any
 } & { render(): Render[".md"] },
-"4FAQ.md": {
-  id: "4FAQ.md",
-  slug: "4faq",
+"3FAQ.md": {
+  id: "3FAQ.md",
+  slug: "3faq",
   body: string,
   collection: "guide",
   data: any
@@ -338,9 +338,9 @@ declare module 'astro:content' {
   collection: "members",
   data: any
 } & { render(): Render[".md"] },
-"2PablosCorner.md": {
-  id: "2PablosCorner.md",
-  slug: "2pabloscorner",
+"2Palapeli.md": {
+  id: "2Palapeli.md",
+  slug: "2palapeli",
   body: string,
   collection: "members",
   data: any
@@ -355,6 +355,13 @@ declare module 'astro:content' {
 "3nami1.md": {
   id: "3nami1.md",
   slug: "3nami1",
+  body: string,
+  collection: "members",
+  data: any
+} & { render(): Render[".md"] },
+"4PablosCorner.md": {
+  id: "4PablosCorner.md",
+  slug: "4pabloscorner",
   body: string,
   collection: "members",
   data: any

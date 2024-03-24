@@ -6,13 +6,15 @@ import { SITE_TITLE } from '../consts';
 <body>
 	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">About</a>
-	  <a href="#">Services</a>
-	  <a href="#">Clients</a>
-	  <a href="#">Contact</a>
+	  <a href="/">Home</a>
+	  <a href="/blog">News</a>
+	  <a href="/guide/1welcome">Guide</a>
+	  <a href="/status">Status</a>
+	  <a href="/guide/3faq">FAQ</a>
+	  <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><div id="light" class="banner strong">{t("header.install")}</div></a>
 	</div>
 	
-	<h2>Animated Sidenav Example</h2>
+	<h2>Where do you wanna go?</h2>
 	<p>Click on the element below to open the side navigation menu.</p>
 	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 

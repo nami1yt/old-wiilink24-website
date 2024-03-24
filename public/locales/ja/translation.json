@@ -36,12 +36,12 @@
         "team": ""
     },
     "header": {
-        "home": "Home",
-        "news": "News",
-        "guide": "Guide",
-        "status": "Status",
-        "faq": "FAQ",
-        "install": "Install now"
+        "home": "ホーム",
+        "news": "ニュース",
+        "guide": "ガイド",
+        "status": "ステータス",
+        "faq": "F A Q",
+        "install": "インストール"
     },
     "services": {
         "itn1name": "Wiiの間",
@@ -77,10 +77,10 @@
         "foodname": "Food Channel" 
     },
     "download": {
-        "welcome": "Welcome!",
-        "oschoose": "Choose your OS to get started!",
-        "winreq": "10 or higher",
-        "linreq": "Requires Brew",
-        "checkdocs": "Check out the installation tutorial on our <0>brand new guide!</0>" 
+        "welcome": "ようこそ！",
+        "oschoose": "まずはOSをお選びください！",
+        "winreq": "10以上",
+        "linreq": "醸造が必要",
+        "checkdocs": "インストール・チュートリアルは <0>真新しいガイドだ！</0>" 
     }
   }
