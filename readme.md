@@ -13,4 +13,4 @@
 
 - Make some Fancy edits
 
-- Add Mobile Support (Not Planned as of 10/10/2024)
+- Add Mobile Support (In Progress)
