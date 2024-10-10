@@ -35,7 +35,7 @@ h1{
     font-family:RubikMedium;
     font-weight: bolder;
     color:white;
-    font-size: 80px;
+    font-size: 70px;
     background: linear-gradient(150deg, rgba(27,143,161,1) 0%, rgba(32,213,136,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,14 +45,14 @@ h2{
     font-family:Gilroy;
     font-weight: bolder;
     color:white;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 h3{
     font-family: Cafe;
     font-weight: 1000;
     color:white;
-    font-size: 30px;
+    font-size: 15px;
     line-height: 1.2;
     text-decoration: none;
 }

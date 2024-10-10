@@ -26,9 +26,6 @@ pubDate: "2020-12-14"
 
 ### Section I - Patching WADs
 
-> [If you want to see detailed instructions on how to install the WADs, click here!](YAWMModMiiEdition)
-
-
 1. Visit the [WiiLink Patcher releases page](https://github.com/WiiLink24/WiiLink24-Patcher/releases) and download the correct patcher for your operating system.
 2. On Windows, run `WiiLink_Patcher_Windows_v1.X.X.exe`. <br>
 On MacOS, right click the `WiiLink_Patcher_macOS_v1.X.X` file in Finder and click Open. <br>
