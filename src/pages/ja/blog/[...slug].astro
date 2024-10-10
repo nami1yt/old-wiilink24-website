@@ -2,6 +2,7 @@
 import { changeLanguage } from "i18next";
 import { CollectionEntry, getCollection } from "astro:content";
 import BlogPost from "../../../layouts/BlogPost.astro";
+import BaseHead from "../../../components/BaseHead.astro";
 import "../../../styles/global.css";
 
 changeLanguage("ja");
@@ -17,6 +18,8 @@ type Props = CollectionEntry<"blog">;
 const post = Astro.props;
 const { Content } = await post.render();
 ---
+
+<BaseHead title="WiiLink - News" />
 
 <BlogPost {...post.data}>
 	<Content />

@@ -8,8 +8,8 @@ pubDate: "Dec 03 2020"
 ### Use the panel on your left to navigate around!
 
 #### Here are some guides that might help you:
-* [Installation Guide](./2installation)
+* [Installation Guide](/guide/2installation)
 
-* [FAQ](./3faq)
+* [FAQ](/guide/3faq)
 
 > This guide is still in its infancy, and there's a lot of work to be done!
