@@ -7,8 +7,10 @@
 
 - Vercel Deployment (Completed)
 
-- Update the Guides
+- Update the Guides (In Progress)
 
-- Update the Front Page Currently Supported Services
+- Update the Front Page Currently Supported Services (In Progress)
 
 - Make some Fancy edits
+
+- Add Mobile Support (Not Planned as of 10/10/2024)
