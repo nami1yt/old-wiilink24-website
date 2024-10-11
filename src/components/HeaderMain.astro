@@ -8,7 +8,11 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
 import BaseHead from './BaseHead.astro';
 ---
 
+	<div id="loadingindicator" style="position:fixed; top:0; left:0; width:100%; height:5px; background-color:#377ce4; z-index:1000; transition:0.5s;"></div>
+	<img id="loadingspinner" alt="Loading..." src="/Images/loading.gif" style="width:30px; height:30px; top:45px; left:38%; z-index:1000; position:fixed;">
+
 <r class="bannerholder">
+
 	<a href="../"><img class="logo" src=" ../../Images/Wii_Link_Logo.png" width="200px; left: 102px;"></a>
 	<ul>
 	<a href={localizePath("/")}><div class="banner">{t("header.home")}</div></a>
@@ -45,7 +49,33 @@ r.classList.toggle("sticky", window.scrollY > 500);
 	})
 </script>
 <script src="https://kit.fontawesome.com/da19af22d7.js" crossorigin="anonymous"></script>
+<script is:inline>
 
+const themeColorButton = document.getElementById('themeColor');
+
+let loadingindicator = document.getElementById("loadingindicator");
+    loadingindicator.style.width = "0%";
+    loadingspinner = document.getElementById("loadingspinner");
+
+      loadingindicator.style.display = "block";
+	  loadingspinner.style.display = "block";
+
+    let increaseWidth = setInterval(() => {
+      let currentWidth = parseInt(loadingindicator.style.width);
+      if (currentWidth < 80) {
+        loadingindicator.style.width = currentWidth + 1 + "%";
+      }
+    }, 100);
+
+    window.addEventListener("load", () => {
+      clearInterval(increaseWidth);
+      loadingindicator.style.width = "100%";
+      setTimeout(() => {
+        loadingindicator.style.opacity = "0";
+        loadingspinner.style.display = "none";
+      }, 500);
+    });
+</script>
 
 <style>
 
