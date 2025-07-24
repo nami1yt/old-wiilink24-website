@@ -1,5 +1,5 @@
 ---
-import Base from "../components/BaseHead.astro";
+import BaseHead from "../components/BaseHead.astro";
 import Services from "../components/Services.astro";
 import Header from "../components/HeaderMain.astro";
 import HeaderSmall from "../components/HeaderSmall.astro";
@@ -16,7 +16,7 @@ changeLanguage("en");
 ---
 <!DOCTYPE html>
 <html lang={i18next.language}>
-<Base title="WiiLink"/>
+<BaseHead title="WiiLink"/>
 
     <body>
     <Header/>
@@ -98,9 +98,6 @@ changeLanguage("en");
                         <p>{t("home.faqres4")}</p>
                     </div>
                 </div> 
-                <a href="/guide/4faq">
-                    <h3 style="text-align: center; top:20px; position: relative; color:#36AC36; left:100%; width:80%; transform:translate(-50%, 0);">{t("home.morefaq")}</h3>
-                </a>
             </div>
         </div>
 
