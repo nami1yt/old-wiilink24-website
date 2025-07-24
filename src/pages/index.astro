@@ -30,9 +30,9 @@ changeLanguage("en");
     <div class="hero">
         <div class="parallaximpress">
             <div class="parallax" id="scene">
-                <div class="channeltop" data-depth="0.3"  data-friction-x="1.5"> <img src="./Images/bgtop.png"></div>
-                <div class="channelmid" data-depth="0.1" data-friction-x="1.5"> <img src="./Images/bgmid.png"></div>
-                <div class="channelbot" data-depth="0.05" data-friction-x="1.5"> <img src="./Images/bgbot.png" style="bottom:0; position:absolute;"></div>
+                <div class="channeltop" data-depth="0.3"  data-friction-x="1.5"> <img src="./Images/bgtop.png" style="overflow-y: hidden;"></div>
+                <div class="channelmid" data-depth="0.1" data-friction-x="1.5"> <img src="./Images/bgmid.png" style="overflow-y: hidden;"></div>
+                <div class="channelbot" data-depth="0.05" data-friction-x="1.5"> <img src="./Images/bgbot.png" style="bottom:0; position:absolute; overflow-y: hidden;"></div>
             </div>
         </div>
 
@@ -52,8 +52,6 @@ changeLanguage("en");
             <a href="/guide/1welcome"><h3 class="readdocs">{t("home.docs")}</h3></a>
         </div>
     </div>
-    
-    <div class="rate">{t("home.beta")}</div>
 
     <a href="#start"><div class="first"><img src=" ./Images/downarrow.png" width="40px"></div></a>
 
@@ -106,7 +104,7 @@ changeLanguage("en");
         <Members />
 
             <!-- News section -->
-        <h2 class="fa-solid fa-newspaper contentslogan" style="top:50px; position: relative;"> <d style="font-family: Gilroy;">{t("home.news")}</d></h2>  <h4 class="slogandef">{t("home.newsdef")}</h4>
+        <h2 class="fa-solid fa-newspaper contentslogan" style=" top:50px; position: relative;"> <d style="font-family: Gilroy;">{t("home.news")}</d></h2>  <h4 class="slogandef" style="left: 70%; width: 21%; position: relative;">{t("home.newsdef")}</h4>
         <News />
 
             <!-- Donators and Discord section -->
@@ -440,6 +438,7 @@ changeLanguage("en");
     left:0;
     overflow: hidden;
     position:absolute;
+    overflow-y: hidden;
 }
 
 .imgbg{
@@ -452,6 +451,7 @@ changeLanguage("en");
     object-fit: cover;
     filter: brightness(0.5);
     position: absolute;
+    overflow-y: hidden;
 }
 
 .first{
@@ -595,7 +595,7 @@ Trans{
     }
     .faqholder{
         width:100%;
-        left:0;
+        left:0%;
         transform: translate(0, 0);
         position: relative;
         padding: 0px;

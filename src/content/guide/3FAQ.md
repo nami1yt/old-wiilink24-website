@@ -22,6 +22,7 @@ pubDate: "2021-01-29"
    > Absolutely. We develop all of our channels without copyrighted code and material, and rely solely on what is provided within the channel and public knowledge. All code is written from the ground up. You will have no legal trouble from using our service.
 
 </br>
+
 ___
 
 ## Channels
@@ -38,7 +39,7 @@ ___
 #### Will the Demae Channel order real food?
 
    > Yes! Some current information:
-        Support has been developed for Domino’s in Canada, and Deliveroo in Europe.
+        Support has been developed for Domino’s in USA and Canada.
         There are plans to expand more services over to Demae for other countries.
     If this ever changes throughout development, we will always have fake ordering, with restaurants curated from our team!
 
